@@ -1,5 +1,4 @@
 name: NodeJS with Webpack
-
 on:
   push:
     branches: [ "main" ]
@@ -24,5 +23,6 @@ jobs:
 
     - name: Build
       run: |
+        python3 -m flask run 
         npm install
         npm run dev
