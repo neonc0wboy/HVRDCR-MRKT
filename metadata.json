@@ -1,0 +1,5 @@
+{
+  "name": "HVRDCR MARKET",
+  "description": "An online store to browse and purchase CPUs, with data sourced from Google Sheets. Features user registration, login, and a shopping cart.",
+  "requestFramePermissions": []
+}
