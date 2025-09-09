@@ -28,11 +28,12 @@ const Header: React.FC = () => {
             <nav className="container mx-auto px-4 py-3 flex justify-between items-center">
                 <div className="flex items-center gap-6">
                     <NavLink to="/" className="text-xl font-bold text-white">HVRDCR MARKET</NavLink>
-                    <a> <img alt="Logo" src="/favicons/logo.png" style="max-width: auto; height: auto;"></img></a>
                     <div className="hidden md:flex items-center gap-4">
                         <NavLink to="/" className={navLinkClasses}>CPU</NavLink>
                     </div>
+
                 </div>
+                    <a> <img alt="Logo" src="/favicons/logo.png" style="max-width: auto; height: auto;"></img></a>
 
                 <div className="flex items-center gap-4">
                     <NavLink to="/cart" className="relative text-gray-300 hover:text-white transition-colors">
